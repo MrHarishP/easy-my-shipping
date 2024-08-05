@@ -1,0 +1,121 @@
+/* Why_us.css */
+
+.why-easy-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #202021; /* Black background */
+    color: #fff; /* White text color */
+    padding: 20px;
+    border-bottom: 1px solid #ccc; /* Add a bottom border to create a line */
+  }
+  
+  .why-easy-left {
+    flex: 1;
+    padding: 20px;
+    min-width: 300px;
+  }
+  
+  .why-easy-left h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .why-easy-left p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .why-easy-right {
+    flex: 2;
+    padding: 20px;
+    min-width: 300px;
+    border-left: 2px dotted #ccc; /* Add a vertical line */
+  }
+  
+  .why-easy-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc; /* Add a bottom border to create a line */
+    /* margin-top: 5px;
+    border-top: 1px solid #ccc; */
+  }
+  
+  .why-easy-number {
+    font-size: 5rem;
+    font-weight: bold;
+    margin-right: 20px;
+   
+  }
+  
+  .why-easy-content {
+    flex: 1;
+    font-family:'Poppins', sans-serif ;
+
+  }
+  
+  .why-easy-title {
+    font-size: 2rem;
+    color: rgb(16, 153, 23); /* Green color */
+    font-family:'Poppins', sans-serif ;
+  }
+  
+  .why-easy-content p {
+    font-size: 1rem;
+    line-height: 1.5;
+   
+  
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .why-easy-section {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .why-easy-left, .why-easy-right {
+      padding: 10px;
+      min-width: 100%;
+      border-left: none; /* Remove the vertical line on smaller screens */
+    }
+  
+    .why-easy-left h2 {
+      font-size: 1.5rem;
+    }
+  
+    .why-easy-left p, .why-easy-content p {
+      font-size: 0.9rem;
+    }
+  
+    .why-easy-number {
+      font-size: 1.6rem;
+    }
+  
+    .why-easy-title {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .why-easy-left h2 {
+      font-size: 1.2rem;
+    }
+  
+    .why-easy-left p, .why-easy-content p {
+      font-size: 0.8rem;
+      border-bottom: none; /* Add a bottom border to create a line */
+    }
+  
+    .why-easy-number {
+      font-size: 1.8rem;
+      border-bottom: none; /* Add a bottom border to create a line */
+    }
+  
+    .why-easy-title {
+      font-size: 1rem;
+      border-bottom: none; /* Add a bottom border to create a line */
+    }
+  }
+  

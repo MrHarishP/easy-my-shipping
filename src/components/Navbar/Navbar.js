@@ -1,0 +1,84 @@
+import React, { useState } from 'react';
+// import React from 'react'
+import './Navbar.css';
+// import logo from './image/logo.png'
+import user from '../image/user-icon.png'
+import search from '../image/search-icon.png'
+import Fulfilment from '../Fullfilment/Fulfilment';
+
+const Navbar = () => {
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+
+  const toggleDropdown = () => {
+    setDropdownOpen(!dropdownOpen);
+  };
+
+
+// function Header() {
+  return (
+    <>
+    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+  <div className="container-fluid">
+    <a className="navbar-brand" href="/">Easy my shipping</a>
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
+    </button>
+    <div className="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul className="navbar-nav">
+      {/* <li className="nav-item dropdown">
+          <a className="nav-link dropdown-toggle" href="Fulfilment" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+            Solution
+            
+          </a>
+          <ul className="dropdown-menu">
+            <li><a className="dropdown-item" href ='/fulfilment' onClick={toggleDropdown}>FULFILLMENT </a>
+            {/* {dropdownOpen && (
+            <div className="dropdown-content">
+              <Fulfilment />
+            </div>
+          )} */}
+          {/* </li>
+            <li><a className="dropdown-item" href="#">LOGISTICS</a></li>
+            <li><a className="dropdown-item" href="#">TECHNOLOGY</a></li>
+          </ul>
+        </li> */} 
+         <li className="nav-item">
+          <a className="nav-link" href="Fulfilment">Services Offered</a>
+        </li>
+        <li className="nav-item dropdown">
+          <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Categories
+          </a>
+          <ul className="dropdown-menu">
+            <li><a className="dropdown-item" href="#">B2B</a></li>
+            <li><a className="dropdown-item" href="#">B2C</a></li>
+            <li><a className="dropdown-item" href="#">D2C</a></li>
+          </ul>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="segment">Segment</a>
+        </li>
+        <li className="nav-item dropdown">
+          <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Company
+          </a>
+          <ul className="dropdown-menu">
+            <li><a className="dropdown-item" href="#">CLIENT</a></li>
+            <li><a className="dropdown-item" href="#">CASE STUDY </a></li>
+            <li><a className="dropdown-item" href="#">HOW WE WORK</a></li>
+            <li><a className="dropdown-item" href="#">EASY MY SHIPPING FULFILLMENT NETWORK</a></li>
+            <li><a className="dropdown-item" href="#">CAREER OPPORTUNITIES </a></li>
+          </ul>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#">Commercial Model</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    </>
+  )
+}
+// }
+export default Navbar

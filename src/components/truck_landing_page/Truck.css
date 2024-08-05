@@ -1,0 +1,13 @@
+/* styles.css */
+.img-responsive {
+  position: relative;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .custom-img {
+    position: inherit;
+    height: 200px; /* Set your desired height */
+    object-fit: cover; /* Maintain aspect ratio and cover the element's content box */
+  }
+  

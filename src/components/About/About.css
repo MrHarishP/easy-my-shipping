@@ -1,0 +1,131 @@
+.about_section {
+    padding: 60px 0;
+    position: relative;
+    background-color: #020410;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .col-sm-4,
+  .col-sm-8 {
+    box-sizing: border-box;
+    padding: 15px;
+  }
+  
+  .col-sm-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: left;
+  }
+  
+  .col-sm-8 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about_text {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .dummy_text {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .read_bt a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f7566e;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .read_bt a:hover {
+    background-color: #d64555;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .copyright_section {
+    background-color: #f1f1f1;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .copyright_text {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .copyright_text a {
+    color: #f7566e;
+    text-decoration: none;
+  }
+  
+  .copyright_text a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Styles */
+  @media (min-width: 576px) {
+    .col-sm-4 {
+      flex: 0 0 33.333333%;
+      max-width: 33.333333%;
+    }
+  
+    .col-sm-8 {
+      flex: 0 0 66.666667%;
+      max-width: 66.666667%;
+    }
+  
+    .about_text {
+      font-size: 40px;
+    }
+  
+    .dummy_text {
+      font-size: 18px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .about_text {
+      font-size: 44px;
+    }
+  
+    .dummy_text {
+      font-size: 20px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .about_text {
+      font-size: 48px;
+    }
+  
+    .dummy_text {
+      font-size: 22px;
+    }
+  }
+  

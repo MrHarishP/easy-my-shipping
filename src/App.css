@@ -1,0 +1,31 @@
+/* App.css
+.overlay-content {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.8); /* semi-transparent background */
+  /* /* color: white; */
+/* } */
+
+/* .overlay-content a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.overlay-content a:hover {
+  color: #ff6347; /* change color on hover */
+/* }  */ */
+#root {
+  /* margin-top: 60px; Adjust this margin to the height of your header */
+  /* padding: 20px; */
+  display: flex;
+}
