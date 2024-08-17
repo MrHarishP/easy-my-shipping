@@ -4,6 +4,7 @@ import './Truck.css';
 const truck = () => {
   return (
     <div>
+     
       <div> < img src={truck_img} className="img-responsive" alt="Image"/></div>
       
     </div>

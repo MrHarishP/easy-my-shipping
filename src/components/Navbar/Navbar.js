@@ -50,9 +50,9 @@ const Navbar = () => {
             Categories
           </a>
           <ul className="dropdown-menu">
-            <li><a className="dropdown-item" href="#">B2B</a></li>
-            <li><a className="dropdown-item" href="#">B2C</a></li>
-            <li><a className="dropdown-item" href="#">D2C</a></li>
+            <li><a className="dropdown-item" href="/domestic">Domestic</a></li>
+            <li><a className="dropdown-item" href="/Import">Import</a></li>
+            <li><a className="dropdown-item" href="/d2c">D2C</a></li>
           </ul>
         </li>
         <li className="nav-item">
@@ -63,15 +63,15 @@ const Navbar = () => {
             Company
           </a>
           <ul className="dropdown-menu">
-            <li><a className="dropdown-item" href="#">CLIENT</a></li>
-            <li><a className="dropdown-item" href="#">CASE STUDY </a></li>
+            <li><a className="dropdown-item" href="Clients">CLIENT</a></li>
+            <li><a className="dropdown-item" href="Casestudy">CASE STUDY </a></li>
             <li><a className="dropdown-item" href="#">HOW WE WORK</a></li>
             <li><a className="dropdown-item" href="#">EASY MY SHIPPING FULFILLMENT NETWORK</a></li>
             <li><a className="dropdown-item" href="#">CAREER OPPORTUNITIES </a></li>
           </ul>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Commercial Model</a>
+          <a className="nav-link" href="comercial model">Commercial Model</a>
         </li>
       </ul>
     </div>

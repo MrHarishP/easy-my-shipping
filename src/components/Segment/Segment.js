@@ -74,7 +74,7 @@ const Segment = () => {
         </div>
       </div>
         <div className='trusted'>
-        <p className='trusted-description'>We are trusted by 75+ brands across industries to manage their supply chain efficiently!!</p>
+        <p className='trusted-description'>We are trusted by 235 + brands across industries to manage their supply chain efficiently!!!</p>
         </div>
     </div>
     </Homepage>

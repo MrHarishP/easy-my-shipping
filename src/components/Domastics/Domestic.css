@@ -1,0 +1,236 @@
+.b2b-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  background-color: #17253b;
+  color: wheat;
+}
+
+.b2b-content {
+  margin-top: 10px;
+  max-width: 50%;
+}
+
+.b2b-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.b2b-content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+.get-started-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.b2b-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.carousel-container {
+  margin: 0 auto;
+  /* width: 100%; */
+  height: 10%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  position: relative; 
+}
+.carousel-container {
+  background: black;
+  color: white;
+}
+.carousel-slide{
+    /* min-height: 300px; Set a minimum height */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    /* background-color: #f9f9f9; */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-height: 300px; /* Height of each slide */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* overflow: hidden; */
+}
+.card:hover {
+  transform: scale(1.05);
+  background-color: #5bbc9d;
+  color: rgb(121, 48, 48);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Increase the shadow on hover */
+}
+.carousel-slide {
+  
+  background-color: #70b39e;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Ensure slides fill the container width */
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  opacity: 1s;
+  transition: opacity 1s ease-in-out;
+}
+
+.carousel-slide h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #333;
+  
+}
+
+.carousel-slide p {
+  font-size: 1.1em;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .carousel-slide h3 {
+      font-size: 1.3em;
+  }
+
+  .carousel-slide p {
+      font-size: 1em;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-slide h3 {
+      font-size: 1.1em;
+  }
+
+  .carousel-slide p {
+      font-size: 0.9em;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .b2b-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .b2b-content {
+    max-width: 100%;
+  }
+
+  .b2b-image {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .b2b-content h1 {
+    font-size: 2rem;
+  }
+
+  .b2b-content p {
+    font-size: 1rem;
+  }
+
+
+
+  .get-started-btn {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}
+
+.head1{
+  padding-left: 5%;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #282c34;
+  font-family: Arial, sans-serif;
+}
+
+.content {
+  display: flex;
+  background-color: #1c1e22;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  color: wheat;
+}
+.content .left-side p {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+.left-side, .right-side {
+  margin: 20px;
+}
+
+.left-side h2, .right-side h2 {
+  color: #61dafb;
+}
+
+.card {
+  background-color: #33363a;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  color: rgb(218, 216, 214);
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background-color: #70b39e;
+  color: black;
+}
+
+.card.rotated {
+  transform: rotate(-5deg);
+}
+
+.card h3 {
+  margin-bottom: 10px;
+}
+
+.right-side ol {
+  list-style: decimal inside;
+  font-size: 1.6rem;
+}
+
+.right-side ol li {
+  margin-bottom: 20px;
+}
+
+.right-side h3 {
+  margin-top: 20px;
+  color: #61dafb;
+}
+/* Media Query for screens smaller than 768px */
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-side, .right-side {
+    margin: 10px 0;
+    width: 100%;
+    max-width: 500px; /* Optional: Limit the max width for better readability */
+  }
+}

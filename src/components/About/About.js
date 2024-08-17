@@ -22,7 +22,7 @@ const App = () => {
           <div className="row">
             <div className="col-sm-4 about_main">
               <h1 className="about_text">About <span style={{ color: '#f7566e' }}>Us</span></h1>
-              <p className="dummy_text">Inxpress provides comprehensive warehousing, logistics, and supply chain solutions for businesses of all sizes, including large enterprises, mid-market SMEs, and emerging D2C brands. We offer scalable, multi-client, and dedicated fulfillment centers with flexible pricing models like pay-per-use or cost-plus to meet your business needs. Brands can partner with Inexpress by selecting from our wide range of services and technology solutions. </p>
+              <p className="dummy_text">At Ease My Shipping, we are dedicated to making your logistics simple and efficient. Whether you need courier services, air freight, or sea freight, our goal is to streamline the shipping process and provide you with peace of mind. Let us handle the logistics while you focus on what matters most to you!!! </p>
               <div className="read_bt"><a href="#">Read More</a></div>
             </div>
             <div className="col-sm-8">

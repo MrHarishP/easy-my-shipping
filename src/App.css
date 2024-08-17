@@ -28,4 +28,5 @@
   /* margin-top: 60px; Adjust this margin to the height of your header */
   /* padding: 20px; */
   display: flex;
+  background-color: black;
 }
