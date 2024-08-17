@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/easy-my-shipping/static/css/main.aa02a782.css",
+    "main.js": "/easy-my-shipping/static/js/main.9cf01aac.js",
+    "static/js/453.99e63929.chunk.js": "/easy-my-shipping/static/js/453.99e63929.chunk.js",
+    "static/media/jumbo.jpg": "/easy-my-shipping/static/media/jumbo.2f5fefa393d7a03ab01c.jpg",
+    "static/media/B2B image.jpg": "/easy-my-shipping/static/media/B2B image.5f6676ddd3f7a71dd078.jpg",
+    "static/media/Industry_serve.jpg": "/easy-my-shipping/static/media/Industry_serve.a5d227a68c880735e337.jpg",
+    "static/media/Export.jpg": "/easy-my-shipping/static/media/Export.ce52d959439fbfd1b34f.jpg",
+    "static/media/import_industry_we_serve.jpg": "/easy-my-shipping/static/media/import_industry_we_serve.4a5b5c0aeb2ebaafacf1.jpg",
+    "static/media/img-1.png": "/easy-my-shipping/static/media/img-1.1f5e44ea8ccb8b89cfd9.png",
+    "static/media/books.jpg": "/easy-my-shipping/static/media/books.5980da55070569e5e033.jpg",
+    "static/media/brand1.jpg": "/easy-my-shipping/static/media/brand1.8280ca2de98363baabe6.jpg",
+    "static/media/appreals.jpg": "/easy-my-shipping/static/media/appreals.a6b2ca6b713ad9c028a0.jpg",
+    "static/media/plane1.jpg": "/easy-my-shipping/static/media/plane1.139fac1d7c990903c38d.jpg",
+    "static/media/cosmatics.jpg": "/easy-my-shipping/static/media/cosmatics.e0ecfeeb25ee4cb15924.jpg",
+    "static/media/why_choose_use_image.jpg": "/easy-my-shipping/static/media/why_choose_use_image.7f792993ab04e5afb003.jpg",
+    "static/media/brand2.jpg": "/easy-my-shipping/static/media/brand2.7fa2770c3b846f698377.jpg",
+    "static/media/our_export_services.jpg": "/easy-my-shipping/static/media/our_export_services.4788a0ff602c1f0286b2.jpg",
+    "static/media/fa-solid-900.ttf": "/easy-my-shipping/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/india_map.png": "/easy-my-shipping/static/media/india_map.95b77d262e9adc089b31.png",
+    "static/media/fa-brands-400.ttf": "/easy-my-shipping/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/retial-banner.png": "/easy-my-shipping/static/media/retial-banner.3654da300c6a1181de7a.png",
+    "static/media/fa-solid-900.woff2": "/easy-my-shipping/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/fa-brands-400.woff2": "/easy-my-shipping/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/fa-regular-400.ttf": "/easy-my-shipping/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/fa-regular-400.woff2": "/easy-my-shipping/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/team.png": "/easy-my-shipping/static/media/team.971e2416fc218bba62aa.png",
+    "static/media/fa-v4compatibility.ttf": "/easy-my-shipping/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "/easy-my-shipping/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "index.html": "/easy-my-shipping/index.html",
+    "main.aa02a782.css.map": "/easy-my-shipping/static/css/main.aa02a782.css.map",
+    "main.9cf01aac.js.map": "/easy-my-shipping/static/js/main.9cf01aac.js.map",
+    "453.99e63929.chunk.js.map": "/easy-my-shipping/static/js/453.99e63929.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa02a782.css",
+    "static/js/main.9cf01aac.js"
+  ]
+}
