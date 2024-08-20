@@ -1,3 +1,7 @@
+.d2c-container{
+  margin: 0;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
 .responsive-image-container {
     width: 100%;
     max-width: 1200px; /* Adjust the max-width as needed */
