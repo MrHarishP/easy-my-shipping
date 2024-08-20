@@ -4,7 +4,7 @@
   height: 100vh; /* Adjust height as needed */
   background-image: url('/src//components//image/B2B\ image.jpg'); /* Use the correct path to your image */
   background-size: cover;
-  background-position: center;
+  background-position: 100% ;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
@@ -12,7 +12,27 @@
   text-align: center;
   /* margin: 20px auto; */
 }
+@media (max-width: 768px) {
+  .background-container {
+    height: 70vh; /* Reduce height on smaller screens */
+    background-position: 16%; /* Adjust the position if needed */
+    padding: 15px;
+  }
+}
 
+@media (max-width: 480px) {
+  .background-container {
+    height: 60vh; /* Further reduce height on very small screens */
+    background-position: 16%; 
+    padding: 10px;
+  }
+}
+@media (max-width: 1366px){
+  .background-container{
+    height: 60vh;
+    background-position: 16%;
+  }
+}
 .overlay-text {
   position: absolute;
   top: 10%;

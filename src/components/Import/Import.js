@@ -9,7 +9,7 @@ const public_url=process.env.REACT_APP_image_url
 
 
 const B2C = () => {
-    console.log("-->",public_url,process.env)
+    // console.log("-->",public_url,process.env)
     const handleContactForm = () => {
         const contactForm = document.getElementById('Contact_form');
         if (contactForm) {
