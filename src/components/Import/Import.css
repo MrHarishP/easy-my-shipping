@@ -29,7 +29,7 @@
 }
 @media (max-width: 1366px){
   .background-container{
-    height: 60vh;
+    /* height: 100vh; */
     background-position: 16%;
   }
 }
