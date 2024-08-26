@@ -23,7 +23,7 @@ const App = () => {
             <div className="col-sm-4 about_main">
               <h1 className="about_text">About <span style={{ color: '#f7566e' }}>Us</span></h1>
               <p className="dummy_text">At Ease My Shipping, we are dedicated to making your logistics simple and efficient. Whether you need courier services, air freight, or sea freight, our goal is to streamline the shipping process and provide you with peace of mind. Let us handle the logistics while you focus on what matters most to you!!! </p>
-              <div className="read_bt"><a href="#">Read More</a></div>
+              <div className="read_bt"><a href="contact_form">No More</a></div>
             </div>
             <div className="col-sm-8">
               <div><img src={About_us} alt="About Us" /></div>

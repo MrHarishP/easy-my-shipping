@@ -4,14 +4,14 @@ import './Navbar.css';
 // import logo from './image/logo.png'
 import user from '../image/user-icon.png'
 import search from '../image/search-icon.png'
-import Fulfilment from '../Fullfilment/Fulfilment';
+// import Fulfilment from '../Fullfilment/Fulfilment';
 
 const Navbar = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
-  const toggleDropdown = () => {
-    setDropdownOpen(!dropdownOpen);
-  };
+  // const toggleDropdown = () => {
+  //   setDropdownOpen(!dropdownOpen);
+  // };
 
 
 // function Header() {
@@ -42,9 +42,9 @@ const Navbar = () => {
             <li><a className="dropdown-item" href="#">TECHNOLOGY</a></li>
           </ul>
         </li> */} 
-         <li className="nav-item">
+         {/* <li className="nav-item">
           <a className="nav-link" href="Fulfilment">Services Offered</a>
-        </li>
+        </li> */}
         <li className="nav-item dropdown">
           <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Categories
@@ -52,7 +52,7 @@ const Navbar = () => {
           <ul className="dropdown-menu">
             <li><a className="dropdown-item" href="/domestic">Domestic</a></li>
             <li><a className="dropdown-item" href="/Import">Import</a></li>
-            <li><a className="dropdown-item" href="/d2c">D2C</a></li>
+            <li><a className="dropdown-item" href="/d2c">Export</a></li>
           </ul>
         </li>
         <li className="nav-item">
@@ -66,13 +66,16 @@ const Navbar = () => {
             <li><a className="dropdown-item" href="Clients">CLIENT</a></li>
             <li><a className="dropdown-item" href="Casestudy">CASE STUDY </a></li>
             <li><a className="dropdown-item" href="#">HOW WE WORK</a></li>
-            <li><a className="dropdown-item" href="#">EASY MY SHIPPING FULFILLMENT NETWORK</a></li>
+            {/* <li><a className="dropdown-item" href="#">EASY MY SHIPPING FULFILLMENT NETWORK</a></li> */}
             <li><a className="dropdown-item" href="#">CAREER OPPORTUNITIES </a></li>
           </ul>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="comercial model">Commercial Model</a>
         </li>
+        {/* <li className="nav-item">
+          <a className="nav-link" href=" Rate calculator">Ratecalculator</a>
+        </li> */}
       </ul>
     </div>
   </div>

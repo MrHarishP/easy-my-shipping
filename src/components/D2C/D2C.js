@@ -29,6 +29,19 @@ const D2C = () => {
 
             <button className="bottom-right-button">Get Started</button>
           </div>
+          <div className="export-logistics-container">
+            <div className="export-logistics-content">
+                <h2>Expanding Your Business Across Borders</h2>
+                <p>
+                    Expanding your business across borders requires a logistics partner who understands the intricacies of international trade. 
+                    At Ease My Shipping, we provide expert export logistics services that ensure your products reach global markets efficiently, safely, and on time.
+                </p>
+                <p>
+                    Our comprehensive solutions are designed to streamline the export process, allowing you to focus on growing your business.
+                </p>
+            </div>
+        </div>
+        
           <div className="export-services-container">
             <div ref={imgRef} className={`image-section ${imgInView ? 'fade-in' : ''}`}>
               <img src={our_export_services} alt="Export Services" />

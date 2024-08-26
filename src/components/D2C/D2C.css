@@ -27,7 +27,7 @@
     border-radius: 10px;
     text-decoration: transparent;
     position: absolute;
-    top: 125px; /* Adjust the top spacing from the edge of the image */
+    top: 82px; /* Adjust the top spacing from the edge of the image */
     left: 50%;
     transform: translateX(-50%); /* Center the text horizontally */
     color: white; /* Adjust text color for visibility */
@@ -36,6 +36,61 @@
     box-sizing: border-box;
     /* padding: 20px; */
   }
+  
+  .export-logistics-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #162329;
+    color: #333;
+}
+
+.export-logistics-content {
+    max-width: 800px;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.export-logistics-content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #004080;
+}
+
+.export-logistics-content p {
+    font-size: 1.125rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .export-logistics-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .export-logistics-content p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .export-logistics-content {
+        padding: 20px;
+    }
+
+    .export-logistics-content h2 {
+        font-size: 1.25rem;
+    }
+
+    .export-logistics-content p {
+        font-size: 0.875rem;
+    }
+}
+
   
   .overlay-text h1 {
     font-size: 1em;

@@ -9,22 +9,22 @@ const Footer = () => {
         <div className="footer_content">
           <div className="footer_section">
             <h2 className="footer_title">About Us</h2>
-            <p className="footer_text">We provide comprehensive solutions for your warehousing, logistics, and supply chain needs. Partner with us to enhance your business operations.</p>
+            <p className="footer_text">At Ease My Shipping, we are dedicated to making your logistics simple and efficient. Whether you need courier services, air freight, or sea freight, our goal is to streamline the shipping process and provide you with peace of mind. Let us handle the logistics while you focus on what matters most to you!!!</p>
           </div>
           <div className="footer_section">
             <h2 className="footer_title">Quick Links</h2>
             <ul className="footer_links">
-              <li><a href="#home">Home</a></li>
-              <li><a href="#services">Services</a></li>
+              <li><a href="/Export">Export</a></li>
+              <li><a href="/Import">Import</a></li>
               <li><a href="#contact">Contact</a></li>
-              <li><a href="#about">About</a></li>
+              <li><a href="/about">About</a></li>
             </ul>
           </div>
           <div className="footer_section">
             <h2 className="footer_title">Contact Us</h2>
-            <p className="footer_text">123 Main Street, Anytown, USA</p>
-            <p className="footer_text">Phone: (123) 456-7890</p>
-            <p className="footer_text">Email: info@example.com</p>
+            <p className="footer_text">804, Paras Trinity, Golf course,Ext.Road,Gurgaon-122001, Haryana</p>
+            <p className="footer_text">Phone: 9871454279</p>
+            <p className="footer_text">Email: easemyshipping@gmail.com</p>
           </div>
         </div>
         <div className="footer_bottom">

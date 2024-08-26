@@ -50,10 +50,10 @@ const Contact_form = () => {
 
   return (
     <div className="contact-form-container">
-      <h1 className='head1'>Give Your Brand The Easy My Shipping Edge</h1>
-      <p>
+      <h1 className='head1'>Give Your Brand The Ease My Shipping Edge</h1>
+      {/* <p>
         Create a winning edge over your competition by scaling up your brand with our expertise in the field of distribution, warehousing, and logistics. Get in touch with us now!
-      </p>
+      </p> */}
       <form className="contact-form" onSubmit={handleSubmit}>
         <div className="form-group">
           <label>

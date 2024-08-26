@@ -1,5 +1,5 @@
 .our-services-container {
-    background-color: rgb(47, 66, 70);
+    background-color: rgb(12, 14, 15);
     color: white;
     padding: 20px;
   }
@@ -13,7 +13,7 @@
   .service-item {
     margin-bottom: 20px;
     padding: 20px;
-    background-color: rgb(56, 91, 84);
+    background-color: rgb(62, 61, 61);
     border-radius: 8px;
   }
   

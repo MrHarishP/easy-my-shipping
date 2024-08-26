@@ -9,11 +9,11 @@ const public_url=process.env.REACT_APP_image_url
 
 
 const B2C = () => {
-    // console.log("-->",public_url,process.env)
+    console.log("-->",public_url,process.env)
     const handleContactForm = () => {
-        const contactForm = document.getElementById('Contact_form');
-        if (contactForm) {
-          contactForm.scrollIntoView({ behavior: 'smooth' });
+        const Contact_form = document.getElementById('Contact_form');
+        if (Contact_form) {
+          Contact_form.scrollIntoView({ behavior: 'smooth' });
         }
       };
     return (        
