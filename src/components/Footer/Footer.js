@@ -16,15 +16,15 @@ const Footer = () => {
             <ul className="footer_links">
               <li><a href="/Export">Export</a></li>
               <li><a href="/Import">Import</a></li>
-              <li><a href="#contact">Contact</a></li>
-              <li><a href="/about">About</a></li>
+              <li><a href="/Contact_us">Contact</a></li>
+              <li><a href="/About_us">About</a></li>
             </ul>
           </div>
           <div className="footer_section">
             <h2 className="footer_title">Contact Us</h2>
             <p className="footer_text">804, Paras Trinity, Golf course,Ext.Road,Gurgaon-122001, Haryana</p>
             <p className="footer_text">Phone: 9871454279</p>
-            <p className="footer_text">Email: easemyshipping@gmail.com</p>
+            <p className="footer_text">Email: sales202.in@inxpress.com</p>
           </div>
         </div>
         <div className="footer_bottom">

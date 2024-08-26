@@ -22,6 +22,8 @@ import D2C from './components/D2C/D2C'
 import Comercial_model from './components/Comercial_model/Comercial_model'
 import Testimonial from './components/Clients/Testimonial'
 import Casestudy from './components/CaseStudy/Casestudy'
+import Contact_us from './components/Contact_us/Contact_us'
+import About_Us from './components/About_us/About_us';
 // import Rate_calculator from './components/Rate_calculator/Rate_calculator'
 function App() {
   return (
@@ -40,6 +42,8 @@ function App() {
       <Route path='/Clients' Component={Testimonial}/>
       {/* <Route path='/casestudy' Component={Casestudy}/> */}
       <Route path="/Casestudy" element={<Casestudy />} />
+      <Route path='/Contact_us' Component={Contact_us}/>
+      <Route path='/About_us' Component={About_Us} />
       {/* <Route path='Rate calculator' Component={Rate_calculator}/> */}
       <Route/>
           {/* <Rate_calculater/> */}
