@@ -52,7 +52,7 @@ const Navbar = () => {
           <ul className="dropdown-menu">
             <li><a className="dropdown-item" href="/domestic">Domestic</a></li>
             <li><a className="dropdown-item" href="/Import">Import</a></li>
-            <li><a className="dropdown-item" href="/d2c">Export</a></li>
+            <li><a className="dropdown-item" href="/Export">Export</a></li>
           </ul>
         </li>
         <li className="nav-item">

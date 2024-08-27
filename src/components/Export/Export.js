@@ -1,5 +1,5 @@
 import React from 'react';
-import './D2C.css';
+import './Export.css';
 // import d2c from '../image/D2C-Banner-image.png'
 import Why_choose_us from './Why_choose_us'
 import Homepage from '../HomePage/Homepagetmp';
@@ -8,7 +8,7 @@ import our_export_services from '../image/our_export_services.jpg'
 import Industry_serve from './Industry_serve'
 import { useInView } from 'react-intersection-observer';
 
-const D2C = () => {
+const Export = () => {
     const [ref1, inView1] = useInView({ triggerOnce: false });
   const [ref2, inView2] = useInView({ triggerOnce: false });
   const [ref3, inView3] = useInView({ triggerOnce: false });
@@ -82,4 +82,4 @@ const D2C = () => {
     );
 };
 
-export default D2C;
+export default Export;

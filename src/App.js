@@ -18,7 +18,7 @@ import Segment from './components/Segment/Segment';
 // import How_we_work from './components/How-we-work/How_we_work'
 import Domestic from './components/Domastics/Domestic'
 import Import from './components/Import/Import'
-import D2C from './components/D2C/D2C'
+import Export from './components/Export/Export'
 import Comercial_model from './components/Comercial_model/Comercial_model'
 import Testimonial from './components/Clients/Testimonial'
 import Casestudy from './components/CaseStudy/Casestudy'
@@ -40,7 +40,7 @@ function App() {
       {/* <Route path='/B2B' Component={Domestic}/> */}
       <Route path='/Domestic' Component={Domestic}/>
       <Route path = '/Import' Component={Import}/>
-      <Route path = '/d2c' Component={D2C}/>
+      <Route path = '/Export' Component={Export}/>
       <Route path = '/comercial model' Component={Comercial_model}/>
       <Route path='/Clients' Component={Testimonial}/>
       {/* <Route path='/casestudy' Component={Casestudy}/> */}
