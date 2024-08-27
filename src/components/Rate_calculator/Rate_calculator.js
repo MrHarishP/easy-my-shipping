@@ -40,10 +40,17 @@ const Rate_calculator = () => {
             onChange={(e) => setZone(e.target.value)}
           >
             <option value="">Select Zone</option>
-            <option value="1">Zone 1</option>
-            <option value="2">Zone 2</option>
-            <option value="3">Zone 3</option>
-            <option value="4">Zone 4</option>
+            <option value="1"> 1</option>
+            <option value="2">2</option>
+            <option value="3"> 3</option>
+            <option value="4">4</option>
+            <option value="4">5</option>
+            <option value="4">6</option>
+            <option value="4">7</option>
+            <option value="4">8</option>
+            <option value="4">9</option>
+            <option value="4">10</option>
+
           </select>
         </label>
         <label>
@@ -61,7 +68,7 @@ const Rate_calculator = () => {
       {rate !== null && (
         <div className="results">
           <h2>Rate</h2>
-          <p>Calculated Rate: ${rate.toFixed(2)}</p>
+          <p>Calculated Rate: {rate.toFixed(2)}</p>
         </div>
       )}
     </div>
