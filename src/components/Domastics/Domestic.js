@@ -1,10 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Domestic.css';
 import Homepage from '../HomePage/Homepagetmp';
 import retail_banner from '../image/retial-banner.png'
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { useState } from 'react';
+import Contact_form from '../Contact_form/Contact_form';
 const Domestic = () => {
   const reasons = [
     {
@@ -57,7 +59,9 @@ const Domestic = () => {
           <img src="/path/to/treebo-logo.png" alt="Treebo" />
           <img src="/path/to/wolters-logo.png" alt="Wolters Kluwer" />
         </div> */}
+        <Link to="/Contact_form">
         <button className="get-started-btn">Get Started</button>
+        </Link>
       </div>
       <div className="b2b-image">
         < img src={retail_banner} alt="B2B Illustration" />

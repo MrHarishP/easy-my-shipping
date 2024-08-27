@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Import.css'; // import the CSS file
 import Homepage from '../HomePage/Homepagetmp';
 import Contact_form from '../Contact_form/Contact_form';
@@ -22,7 +23,9 @@ const B2C = () => {
       <div className="overlay-text">
         {/* Import Logistics Services */}
       </div>
+      <Link to="/Contact_us_form">
       <button className="get-started-button" onClick={handleContactForm}>Get Started</button>
+      </Link>
     </div>
     <div className="services-container">
       <h2 className="services-title">Our Import Logistics Services</h2>
