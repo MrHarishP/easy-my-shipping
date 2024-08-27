@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 // import React from 'react'
 import './Navbar.css';
-// import logo from './image/logo.png'
-import user from '../image/user-icon.png'
-import search from '../image/search-icon.png'
+import logo from '../image/ease_my_shipping_logo.png'
+// import user from '../image/user-icon.png'
+// import search from '../image/search-icon.png'
 // import Fulfilment from '../Fullfilment/Fulfilment';
 
 const Navbar = () => {
@@ -19,7 +19,7 @@ const Navbar = () => {
     <>
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
   <div className="container-fluid">
-    <a className="navbar-brand" href="/">EASE MY SHIPPING</a>
+    <a className="navbar-brand" href="/"><img src={logo} alt="Ease My Shipping Logo" className="navbar-logo" /></a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
