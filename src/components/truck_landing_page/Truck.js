@@ -10,7 +10,7 @@ const Truck = () => {
   
   const phrases = [
     { text: 'Import your business with Ease My Shipping', color: 'Red' }, // Red color
-    { text: 'Export your business with Ease My Shipping', color: '#2E073F' }  // Blue color
+    { text: 'Export your business with Ease My Shipping', color: '#F5841A' }  // choose color as per your self
   ];
 
   useEffect(() => {

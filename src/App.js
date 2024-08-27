@@ -25,6 +25,7 @@ import Casestudy from './components/CaseStudy/Casestudy'
 import Contact_us from './components/Contact_us/Contact_us'
 import About_Us from './components/About_us/About_us';
 import Contact_us_form from './components/Contact_form/Contact_us_form'
+import CareerOpportunities from './components/Career/CareerOpportunities'
 
 // import Rate_calculator from './components/Rate_calculator/Rate_calculator'
 function App() {
@@ -47,6 +48,7 @@ function App() {
       <Route path='/Contact_us' Component={Contact_us}/>
       <Route path='/About_us' Component={About_Us} />
       <Route path='/Contact_us_form' Component={Contact_us_form}/>
+      <Route path='/CareerOpportunities' Component={CareerOpportunities}/>
       {/* <Route path='Rate calculator' Component={Rate_calculator}/> */}
       <Route/>
           {/* <Rate_calculater/> */}
