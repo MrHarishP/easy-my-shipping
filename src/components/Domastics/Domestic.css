@@ -8,7 +8,7 @@
 }
 
 .b2b-content {
-  margin-top: 10px;
+  margin-top: 30px;
   max-width: 50%;
 }
 
@@ -23,7 +23,7 @@
 }
 .get-started-btn {
   background-color: #007bff;
-  color: white;
+  color: rgb(255, 255, 255);
   border: none;
   padding: 15px 30px;
   font-size: 1rem;
@@ -67,13 +67,13 @@
 }
 .card:hover {
   transform: scale(1.05);
-  background-color: #5bbc9d;
+  background-color: #93e3e3;
   color: rgb(121, 48, 48);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Increase the shadow on hover */
 }
 .carousel-slide {
   
-  background-color: #70b39e;
+  background-color: #040505;
   padding: 20px;
   border-radius: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -88,13 +88,13 @@
 .carousel-slide h3 {
   font-size: 1.5em;
   margin-bottom: 10px;
-  color: #333;
+  color: #25c84d;
   
 }
 
 .carousel-slide p {
   font-size: 1.1em;
-  color: #555;
+  color: #ebe3e3;
 }
 
 @media (max-width: 768px) {
@@ -168,7 +168,7 @@
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  color: wheat;
+  color: rgb(236, 235, 234);
 }
 .content .left-side p {
   font-size: 1.4rem;
@@ -180,7 +180,7 @@
 }
 
 .left-side h2, .right-side h2 {
-  color: #61dafb;
+  color: #10c93b;
 }
 
 .card {
@@ -197,7 +197,7 @@
 .card:hover {
   transform: scale(1.05);
   background-color: #70b39e;
-  color: black;
+  color: rgb(207, 152, 152);
 }
 
 .card.rotated {
@@ -210,17 +210,107 @@
 
 .right-side ol {
   list-style: decimal inside;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
 }
 
 .right-side ol li {
   margin-bottom: 20px;
+  font-size: 1.2rem;
 }
 
 .right-side h3 {
   margin-top: 20px;
-  color: #61dafb;
+  color: #0a8b21;
 }
+.right-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center all content horizontally */
+}
+.get-started-container {
+  background: linear-gradient(135deg, #6b72ff, #f16a77);
+  color: white;
+  border-radius: 12px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 0 auto; /* Center horizontally */
+  max-width: 600px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.get-started-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.get-started-container h3 {
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+.get-started-container p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.get-started-btn {
+  background-color: rgb(30, 114, 203);
+  color: #d5d6d9;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1.2em;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.get-started-btn:hover {
+  background-color: #f16a77;
+  color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .get-started-container {
+    padding: 20px;
+  }
+
+  .get-started-container h3 {
+    font-size: 1.5em;
+  }
+
+  .get-started-container p {
+    font-size: 1em;
+  }
+
+  .get-started-btn {
+    padding: 10px 20px;
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 480px) {
+  .get-started-container {
+    padding: 15px;
+  }
+
+  .get-started-container h3 {
+    font-size: 1.3em;
+  }
+
+  .get-started-container p {
+    font-size: 0.9em;
+  }
+
+  .get-started-btn {
+    padding: 8px 16px;
+    font-size: 0.9em;
+  }
+}
+
 /* Media Query for screens smaller than 768px */
 @media (max-width: 768px) {
   .content {

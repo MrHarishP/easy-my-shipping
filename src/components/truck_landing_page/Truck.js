@@ -10,9 +10,15 @@ const Truck = () => {
   const [typingSpeed, setTypingSpeed] = useState(50);
   
   const phrases = [
-    { text: 'Import your business with Ease My Shipping', color: 'Red' }, // Red color
-    { text: 'Export your business with Ease My Shipping', color: '#F5841A' }  // choose color as per your self
-  ];
+    { 
+        text: 'Your Package,', 
+        color: 'linear-gradient(135deg, #6b72ff, #f16a77)' 
+    },
+    { 
+        text: 'Our Priority.', 
+        color: 'linear-gradient(135deg, white, black)' // You can choose another color here if needed
+    }
+];
 
   useEffect(() => {
     const handleTyping = () => {
@@ -40,6 +46,7 @@ const Truck = () => {
   const currentPhrase = phrases[loopNum % phrases.length];
 
   return (
+    
     <div className="truck-container">
     <img src={truck_img} className="img-responsive" alt="Truck" />
     <div className="search-bar-container">
@@ -52,6 +59,7 @@ const Truck = () => {
       />
     </div>
   </div>
+  
   )
 }
 

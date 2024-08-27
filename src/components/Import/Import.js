@@ -23,7 +23,7 @@ const B2C = () => {
       <div className="overlay-text">
         {/* Import Logistics Services */}
       </div>
-      <Link to="/Contact_us_form">
+      <Link to="/Contact_us">
       <button className="get-started-button" onClick={handleContactForm}>Get Started</button>
       </Link>
     </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import './Export.css';
+import { Link } from 'react-router-dom';
 // import d2c from '../image/D2C-Banner-image.png'
 import Why_choose_us from './Why_choose_us'
 import Homepage from '../HomePage/Homepagetmp';
@@ -26,8 +27,9 @@ const Export = () => {
               <h1>Export Logistics Services</h1>
               <h2>Your Gateway to Global Markets</h2>
             </div>
-
+            <Link to="/Contact_us">
             <button className="bottom-right-button">Get Started</button>
+            </Link>
           </div>
           <div className="export-logistics-container">
             <div className="export-logistics-content">

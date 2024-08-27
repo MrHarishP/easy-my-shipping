@@ -70,9 +70,6 @@ const Navbar = () => {
             <li><a className="dropdown-item" href="CareerOpportunities">CAREER OPPORTUNITIES </a></li>
           </ul>
         </li>
-        <li className="nav-item">
-          <a className="nav-link" href="comercial model">Commercial Model</a>
-        </li>
         {/* <li className="nav-item">
           <a className="nav-link" href=" Rate calculator">Ratecalculator</a>
         </li> */}
