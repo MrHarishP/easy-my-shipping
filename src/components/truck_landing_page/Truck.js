@@ -1,5 +1,6 @@
 import React,  { useEffect, useState } from 'react'
 import truck_img from '../image/landing_page.jpg'
+import Typewriter from 'react-typewriter-effect';
 import './Truck.css';
 
 const Truck = () => {
