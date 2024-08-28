@@ -12,7 +12,7 @@ import cls from '../image/cls.png'
 
 const BrandsSection = () => {
   const logos = [
-    brand1, brand2, M_J_International, biba, ,
+    brand1, brand2, M_J_International, biba, 
     Agarwal_Packers_And_Movers_Limited, 
   ];
   const logosLine2 = [

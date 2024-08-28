@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Import.css'; // import the CSS file
 import Homepage from '../HomePage/Homepagetmp';
-import Contact_form from '../Contact_form/Contact_form';
+
 import import_image_serve from '../image/import_industry_serve.jpg'
 
 const public_url=process.env.REACT_APP_image_url

@@ -1,12 +1,11 @@
 import React from 'react';
 import './Export.css';
 import { Link } from 'react-router-dom';
-// import d2c from '../image/D2C-Banner-image.png'
-import Why_choose_us from './Why_choose_us'
+
 import Homepage from '../HomePage/Homepagetmp';
 import image from '../image/Export.jpg'
 import our_export_services from '../image/our_export_services.jpg'
-import Industry_serve from './Industry_serve'
+
 import { useInView } from 'react-intersection-observer';
 
 const Export = () => {
@@ -76,8 +75,8 @@ const Export = () => {
               </div>
             </div>
           </div>
-          <Why_choose_us />
-          <Industry_serve />
+          
+          
         </Homepage>
         </div>
         </>

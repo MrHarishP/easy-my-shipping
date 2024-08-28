@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import './Contact_us_form.css';
 import { FaUser, FaPhone, FaBuilding, FaEnvelope, FaClipboardList } from 'react-icons/fa';
-import Homepage from '../HomePage/Homepagetmp';
-import Footer from '../Footer/Footer';
+
 import Navbar from '../Navbar/Navbar';
 
 const Contact_form = () => {

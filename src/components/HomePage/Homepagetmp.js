@@ -11,6 +11,7 @@ import FAQ from '../FAQ_section/FAQ'
 // import Segment from './components/Segment/Segment'
 
 export default function Homepage({ children }) {
+  
   return (
     <>
       <Navbar />

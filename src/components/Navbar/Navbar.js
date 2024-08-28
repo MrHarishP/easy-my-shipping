@@ -2,19 +2,12 @@ import React, { useState } from 'react';
 // import React from 'react'
 import './Navbar.css';
 import logo from '../image/ease_my_shipping_logo.png'
-// import user from '../image/user-icon.png'
-// import search from '../image/search-icon.png'
-// import Fulfilment from '../Fullfilment/Fulfilment';
+
 
 const Navbar = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
-  // const toggleDropdown = () => {
-  //   setDropdownOpen(!dropdownOpen);
-  // };
-
-
-// function Header() {
+  
   return (
     <>
     <nav className="navbar navbar-expand-lg bg-body-tertiary">

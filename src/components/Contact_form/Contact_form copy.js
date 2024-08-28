@@ -1,7 +1,8 @@
-import React, { useState, useRef } from 'react';
+import React, { useState , useRef } from 'react';
 import './Contact_form.css';
 import { FaUser, FaPhone, FaBuilding, FaEnvelope, FaClipboardList } from 'react-icons/fa';
 import emailjs from '@emailjs/browser';
+import { Alert } from 'bootstrap';
 
 const Contact_form = () => {
   const form = useRef();
@@ -13,9 +14,6 @@ const Contact_form = () => {
     category: ''
   });
 
-  // Initialize emailJS
-  emailjs.init('FzEIxAhpYWKLu_uYT'); // Replace with your actual public key
-
   const handleChange = (e) => {
     setFormData({
       ...formData,
@@ -25,31 +23,38 @@ const Contact_form = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
     emailjs
-      .sendForm('service_g7j4352', 'template_n0m1203', form.current, 'FzEIxAhpYWKLu_uYT')
+      .sendForm('service_g7j4352', 'template_n0m1203', form.current, {
+        publicKey: 'FzEIxAhpYWKLu_uYT',
+      })
       .then(
-        (result) => {
-          console.log('SUCCESS!', result.text);
-          alert("Form Submit successfully")
+        () => {
+          alert('SUCCESS!');
           setFormData({
             name: '',
             phone: '',
             company: '',
             email: '',
             category: ''
-          });
+          })
         },
         (error) => {
           console.log('FAILED...', error.text);
-        }
+        },
       );
+    
+
   };
+  
 
   return (
     <div className="contact-form-container">
       <h1 className='head1'>Give Your Brand The Ease My Shipping Edge</h1>
+      {/* <p>
+        Create a winning edge over your competition by scaling up your brand with our expertise in the field of distribution, warehousing, and logistics. Get in touch with us now!
+      </p> */}
       <form ref={form} className="contact-form" onSubmit={handleSubmit}>
+      {/* <form ref={form} onSubmit={handleSubmit}> */}
         <div className="form-group">
           <label>
             <FaUser className="icon" />

@@ -5,7 +5,7 @@ import Homepage from '../HomePage/Homepagetmp';
 import retail_banner from '../image/retial-banner.png';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import Contact_form from '../Contact_form/Contact_form';
+
 
 const Domestic = () => {
   const reasons = [
