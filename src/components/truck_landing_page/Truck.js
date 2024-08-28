@@ -11,12 +11,12 @@ const Truck = () => {
   
   const phrases = [
     { 
-        text: 'Your Package,', 
-        color: 'linear-gradient(135deg, #6b72ff, #f16a77)' 
+        text: 'Your Package',
+        color: 'white' 
     },
     { 
-        text: 'Our Priority.', 
-        color: 'linear-gradient(135deg, white, black)' // You can choose another color here if needed
+        text: 'Our Priority', 
+        color: 'white' // You can choose another color here if needed
     }
 ];
 
