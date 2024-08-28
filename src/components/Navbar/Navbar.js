@@ -55,9 +55,9 @@ const Navbar = () => {
             <li><a className="dropdown-item" href="/Export">Export</a></li>
           </ul>
         </li>
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <a className="nav-link" href="segment">Segment</a>
-        </li>
+        </li> */}
         <li className="nav-item dropdown">
           <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Company
@@ -65,11 +65,14 @@ const Navbar = () => {
           <ul className="dropdown-menu">
             <li><a className="dropdown-item" href="Clients">CLIENT</a></li>
             <li><a className="dropdown-item" href="Casestudy">CASE STUDY </a></li>
-            <li><a className="dropdown-item" href="#">HOW WE WORK</a></li>
+            {/* <li><a className="dropdown-item" href="#">HOW WE WORK</a></li> */}
             {/* <li><a className="dropdown-item" href="#">EASY MY SHIPPING FULFILLMENT NETWORK</a></li> */}
             <li><a className="dropdown-item" href="CareerOpportunities">CAREER OPPORTUNITIES </a></li>
           </ul>
         </li>
+         <li className="nav-item">
+          <a className="nav-link" href="/Contact_us">Contact us </a>
+        </li> 
         {/* <li className="nav-item">
           <a className="nav-link" href=" Rate calculator">Ratecalculator</a>
         </li> */}

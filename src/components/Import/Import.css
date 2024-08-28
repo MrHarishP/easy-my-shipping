@@ -88,7 +88,7 @@
 .service {
   margin-bottom: 20px;
   padding: 20px;
-  background-color: #ebdcca;
+  background-color: #0e0d0c;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
@@ -107,7 +107,7 @@
 
 .service p {
   font-size: 1.1rem;
-  color: #555;
+  color: #ebe6e6;
   line-height: 1.6;
 }
 
