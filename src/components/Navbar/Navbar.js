@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 // import React from 'react'
 import './Navbar.css';
 import logo from '../image/ease_my_shipping_logo.png'
 
 
 const Navbar = () => {
-  const [dropdownOpen, setDropdownOpen] = useState(false);
+  // const [dropdownOpen, setDropdownOpen] = useState(false);
 
   
   return (
@@ -38,7 +38,16 @@ const Navbar = () => {
          {/* <li className="nav-item">
           <a className="nav-link" href="Fulfilment">Services Offered</a>
         </li> */}
-        <li className="nav-item dropdown">
+        <li className="nav-item">
+          <a className="nav-link" href="/Domestic">Domestic </a>
+        </li> 
+        <li className="nav-item">
+          <a className="nav-link" href="/Import">Import </a>
+        </li> 
+        <li className="nav-item">
+          <a className="nav-link" href="/Export">Export </a>
+        </li> 
+        {/* <li className="nav-item dropdown">
           <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Categories
           </a>
@@ -47,22 +56,25 @@ const Navbar = () => {
             <li><a className="dropdown-item" href="/Import">Import</a></li>
             <li><a className="dropdown-item" href="/Export">Export</a></li>
           </ul>
-        </li>
+        </li> */}
         {/* <li className="nav-item">
           <a className="nav-link" href="segment">Segment</a>
         </li> */}
-        <li className="nav-item dropdown">
+        <li className="nav-item">
+          <a className="nav-link" href="/CaseStudy">Case Study </a>
+        </li> 
+        {/* <li className="nav-item dropdown">
           <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Company
           </a>
           <ul className="dropdown-menu">
             {/* <li><a className="dropdown-item" href="Clients">CLIENT</a></li> */}
-            <li><a className="dropdown-item" href="Casestudy">CASE STUDY </a></li>
+            {/* <li><a className="dropdown-item" href="Casestudy">CASE STUDY </a></li> */}
             {/* <li><a className="dropdown-item" href="#">HOW WE WORK</a></li> */}
             {/* <li><a className="dropdown-item" href="#">EASY MY SHIPPING FULFILLMENT NETWORK</a></li> */}
             {/* <li><a className="dropdown-item" href="CareerOpportunities">CAREER OPPORTUNITIES </a></li> */}
-          </ul>
-        </li>
+          {/* </ul> */}
+        {/* </li> */} 
          <li className="nav-item">
           <a className="nav-link" href="/Contact_us">Contact us </a>
         </li> 

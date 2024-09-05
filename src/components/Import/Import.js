@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './Import.css'; // import the CSS file
 import Homepage from '../HomePage/Homepagetmp';
 
-import import_image_serve from '../image/import_industry_serve.jpg'
+import import_image_serve from '../image/import_industry_serve.png'
 
 const public_url=process.env.REACT_APP_image_url
 
@@ -112,13 +112,29 @@ const B2C = () => {
         </div>
     <div className="import-confidence-container">
             <div className="text-left">
-                <h2 className="animated-text">Start Importing with Confidence</h2>
-                <p>At Ease My Shipping, we make importing goods hassle-free and efficient. Whether you're importing for the first time or looking to streamline your existing operations, our team is here to provide expert guidance and reliable service every step of the way.</p>
-            </div>
+            <div className="get-started-container">
+      <h3>Start Importing with Confidence</h3>
+      <p>
+      At Ease My Shipping, we make importing goods hassle-free and efficient. Whether you're importing for the first time or looking to streamline your existing operations, our team is here to provide expert guidance and reliable service every step of the way.      </p>
+      
+      
+    </div>
+     </div>
+
+
             <div className="text-right">
-                <h3>Contact us today to learn more about our import logistics services and how we can help your business thrive in the global market.</h3>
+            <div className="get-started-container">
+      <p>
+        Contact us today to learn more or to schedule your next delivery!
+      </p>
+      <Link to="/Contact_us">
+      <button className="get-started-btn">Get Started</button>
+      </Link>
+    </div>
+                {/* <h3>Contact us today to learn more about our import logistics services and how we can help your business thrive in the global market.</h3> */}
             </div>
         </div>
+       
         </Homepage> 
   );
 };
