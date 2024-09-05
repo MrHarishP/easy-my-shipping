@@ -131,8 +131,7 @@ const B2C = () => {
       <button className="get-started-btn">Get Started</button>
       </Link>
     </div>
-                {/* <h3>Contact us today to learn more about our import logistics services and how we can help your business thrive in the global market.</h3> */}
-            </div>
+   </div>
         </div>
        
         </Homepage> 

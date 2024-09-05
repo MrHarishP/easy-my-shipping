@@ -11,7 +11,9 @@
     flex: 1;
     padding: 20px;
   }
-  
+  .text-section h1 {
+    color: blue;
+  }
   .text-block {
     opacity: 0;
     transform: translateX(-100%);

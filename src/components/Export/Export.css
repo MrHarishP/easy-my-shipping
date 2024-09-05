@@ -155,7 +155,12 @@
   flex: 1;
   padding: 20px;
 }
-
+.text-section h2 {
+  color: floralwhite;
+}
+.text-section h3 {
+  color: #1818c7;
+}
 .text-block {
   opacity: 0;
   transform: translateX(100%);
