@@ -15,8 +15,8 @@ app.post("/send-email", async (req, res) => {
   try {
     // Sending email using EmailJS
     const emailSend = await emailjs.send(
-      "service_g7j4352", // Your EmailJS service ID
-      "template_n0m1203", // Your EmailJS template ID
+      "service_m5tmddl", // Your EmailJS service ID
+      "template_m4xbvte", // Your EmailJS template ID
       {
         name,
         phone,
