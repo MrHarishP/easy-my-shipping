@@ -14,7 +14,7 @@ const Contact_form = () => {
   });
 
   // Initialize emailJS
-  emailjs.init('FzEIxAhpYWKLu_uYT'); // Replace with your actual public key
+  emailjs.init('ltgaiHK8mpW8QttCw'); // Replace with your actual public key
 
   const handleChange = (e) => {
     setFormData({
