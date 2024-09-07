@@ -48,7 +48,7 @@ const Contact_form = () => {
 
   return (
     <div className="contact-form-container">
-      <h1 className='head1'>CONTACT FOR MORE DETAILSS</h1>
+      <h1 className='head1'>CONTACT FOR MORE DETAILS</h1>
       <form ref={form} className="contact-form" onSubmit={handleSubmit}>
         <div className="form-group">
           <label>
