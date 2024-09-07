@@ -27,7 +27,7 @@ const Contact_form = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_g7j4352', 'template_n0m1203', form.current, 'FzEIxAhpYWKLu_uYT')
+      .sendForm('service_m5tmddl', 'template_z8hyhga', form.current, 'ltgaiHK8mpW8QttCw')
       .then(
         (result) => {
           console.log('SUCCESS!', result.text);
